@@ -2,7 +2,7 @@ function abrirModal(nome, tipo, titulo) {
     return { nome, tipo, titulo };
 }
 
-function exibirModal(nome) {
+function modalSelecionado(nome) {
     if (nome == 'configuracao') {
         abrirModal(nome, 1, 'Configurações');
     }
@@ -14,4 +14,4 @@ function exibirModal(nome) {
     }
 }
 
-exibirModal('configuracao');
+modalSelecionado('configuracao');
